@@ -1,0 +1,16 @@
+{
+  "name": "node_mailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mailgen": "^2.0.29",
+    "nodemailer": "^6.10.0"
+  }
+}
