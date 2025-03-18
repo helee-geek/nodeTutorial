@@ -1,7 +1,6 @@
 // YOUTUBE EXAMPLE.....
 // file compressed
 
-
 // const express = require("express");
 // const app = express();
 // const fs = require("fs");
@@ -31,10 +30,8 @@
 //   console.log(`App is Listening on port ${port}`);
 // });
 
-
 // TUTORIAL...............
 // Readable Stream
-
 
 // const express = require("express");
 // const app = express();
@@ -63,7 +60,6 @@
 // });
 
 // Writable Stream
-
 
 // const express = require("express");
 // const app = express();
@@ -94,7 +90,6 @@
 
 // Piping the Streams
 
-
 const express = require("express");
 const app = express();
 const fs = require("fs");
@@ -111,4 +106,3 @@ app.get("/pipe", (req, res) => {
 app.listen(port, () => {
   console.log(`App is Listening on port ${port}`);
 });
-

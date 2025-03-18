@@ -1,0 +1,11 @@
+API ROUTES
+
+GET - /users  ----> Fetch all the users
+
+GET - /users/:id  ----> Fetch User with id
+
+POST - /users ----> Create New User
+
+PATCH - /users/:id  ---->  Update the User based on ID
+
+DELETE - /users/:id  ---->  Delete the User based on ID
